@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="trreq" max_length="40" name="x_141494_trreq_trreq" type="collection">
+        <element label="Additional Authorized Editors/追加編集権限者" max_length="32" name="addeditors" reference="sys_user" type="reference"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Document Title/文書名" mandatory="true" max_length="40" name="u_actionitem_en" type="string"/>
+        <element label="Translation Assigned to/担当翻訳者" max_length="32" name="u_aniassignedto" reference="sys_user" type="reference"/>
+        <element label="Desired Deadline/終了希望日" mandatory="true" max_length="40" name="u_aniduedate" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" label="Attachment/添付" max_length="40" name="u_attachment" read_only="true" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Attached Document/添付" max_length="40" name="u_attachment_1" read_only="true" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Attached Document/添付" max_length="40" name="u_attachment_2" read_only="true" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Translators/翻訳者" max_length="40" name="u_authorleader" type="string"/>
+        <element attributes="no_sort=true,slushbucket_ref_no_expand=true" label="Category/カテゴリ区分" max_length="1024" name="u_category" type="glide_list"/>
+        <element label="Assigned on/指名日" max_length="40" name="u_dateaniassigned" type="glide_date"/>
+        <element label="Requested Date/依頼日" max_length="40" name="u_dateraised" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" label="Comments/コメント" max_length="40" name="u_description_en" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Comments/コメント" max_length="40" name="u_description_en_2" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Requested by/依頼者" max_length="40" name="u_docauthor" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Requested by/依頼部門" max_length="40" name="u_docauthor_deptname_d" type="string"/>
+        <element label="Estimated Translation Date &amp; Time/完了予定日時" max_length="40" name="u_estimateddate" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" label="Extension/内線" mandatory="true" max_length="40" name="u_extention" type="string"/>
+        <element attributes="no_sort=true,slushbucket_ref_no_expand=true" label="Keyword/キーワード" max_length="1024" name="u_keyword" type="glide_list"/>
+        <element attributes="edge_encryption_enabled=true" label="No. of Pages/ページ数" max_length="40" name="u_pages" type="string"/>
+        <element attributes="no_sort=true,slushbucket_ref_no_expand=true" label="Purpose of Document/使用目的" max_length="1024" name="u_purpose" type="glide_list"/>
+        <element label="Received on/開始日" max_length="40" name="u_receivedon" type="glide_date"/>
+        <element label="New Reference" max_length="32" name="u_reference_30" reference="x_141494_bfup_tr_dept" type="reference"/>
+        <element label="Cancelled Date/取り下げ日" max_length="40" name="u_rejectdate" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" label="Cancelled by/取り下げ実行者" max_length="40" name="u_rejectedby" type="string"/>
+        <element label="Assigned on/指名日" max_length="40" name="u_revassigneddate" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" label="Review Assigned to/担当チェッカー" max_length="40" name="u_revassignedto" type="string"/>
+        <element label="Review Completed on/チェック終了日" max_length="40" name="u_revcompleteddate" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" label="Reviewer’s Memo/チェッカーメモ" max_length="40" name="u_revmemo" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="STATUS／ステータス" max_length="40" name="u_status" read_only="true" type="string"/>
+        <element label="Actual Translated Date &amp; Time/実際の完了日時" max_length="40" name="u_translateddate" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Translators' Memo/翻訳者メモ" max_length="40" name="u_translotorsmemo" type="string">
+            <choice>
+                <element label="経営会議資料" sequence="0" value="経営会議資料"/>
+                <element label="納期調整" sequence="1" value="納期調整"/>
+                <element label="外注" sequence="2" value="外注"/>
+                <element label="和訳" sequence="3" value="和訳"/>
+                <element label="ネイティブチェック" sequence="4" value="ネイティブチェック"/>
+                <element label="その他チェック" sequence="5" value="その他チェック"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="FileFormat/ファイル様式" max_length="40" name="u_type" type="string">
+            <choice>
+                <element label="Word" sequence="0" value="Word"/>
+                <element label="Excel" sequence="1" value="Excel"/>
+                <element label="Power Point" sequence="2" value="Power Point"/>
+                <element label="Visio" sequence="3" value="Visio"/>
+                <element label="Handwritten/手書き" sequence="4" value="Handwritten/手書き"/>
+                <element label="Hard Copy/ハードコピー" sequence="5" value="Hard Copy/ハードコピー"/>
+                <element label="Other/その他" sequence="6" value="Other/その他"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="u_reference_30"/>
+        </index>
+        <index name="index2">
+            <element name="addeditors"/>
+        </index>
+        <index name="index3">
+            <element name="u_aniassignedto"/>
+        </index>
+    </element>
+</database>

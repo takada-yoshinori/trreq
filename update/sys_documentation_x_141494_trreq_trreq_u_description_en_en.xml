@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="u_description_en" label="Comments/コメント" language="en" table="x_141494_trreq_trreq">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_description_en</element>
+            <help/>
+            <hint/>
+            <label>Comments/コメント</label>
+            <language>en</language>
+            <name>x_141494_trreq_trreq</name>
+            <plural>Comments/コメントs</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-08-07 04:12:54</sys_created_on>
+            <sys_id>8661c4770f10030017d906ace1050eee</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Comments/コメント</sys_name>
+            <sys_package display_value="trreq" source="x_141494_trreq">38f391b20f90030017d906ace1050e79</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="trreq">38f391b20f90030017d906ace1050e79</sys_scope>
+            <sys_update_name>sys_documentation_x_141494_trreq_trreq_u_description_en_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-08-07 04:12:54</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

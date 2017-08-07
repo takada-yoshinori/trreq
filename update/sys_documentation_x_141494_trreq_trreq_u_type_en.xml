@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="u_type" label="FileFormat/ファイル様式" language="en" table="x_141494_trreq_trreq">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_type</element>
+            <help/>
+            <hint/>
+            <label>FileFormat/ファイル様式</label>
+            <language>en</language>
+            <name>x_141494_trreq_trreq</name>
+            <plural>FileFormat/ファイル様式s</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-08-07 02:59:26</sys_created_on>
+            <sys_id>b590f3670f10030017d906ace1050e66</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>FileFormat/ファイル様式</sys_name>
+            <sys_package display_value="trreq" source="x_141494_trreq">38f391b20f90030017d906ace1050e79</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="trreq">38f391b20f90030017d906ace1050e79</sys_scope>
+            <sys_update_name>sys_documentation_x_141494_trreq_trreq_u_type_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-08-07 02:59:26</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

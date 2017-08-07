@@ -5,7 +5,7 @@
         <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Document Title/文書名" mandatory="true" max_length="40" name="u_actionitem_en" type="string"/>
         <element label="Translation Assigned to/担当翻訳者" max_length="32" name="u_aniassignedto" reference="sys_user" type="reference"/>
-        <element label="Desired Deadline/終了希望日" mandatory="true" max_length="40" name="u_aniduedate" type="glide_date"/>
+        <element label="Desired Deadline/終了希望日" max_length="40" name="u_aniduedate" type="glide_date_time"/>
         <element attributes="edge_encryption_enabled=true" label="Attachment/添付" max_length="40" name="u_attachment" read_only="true" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Attached Document/添付" max_length="40" name="u_attachment_1" read_only="true" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Attached Document/添付" max_length="40" name="u_attachment_2" read_only="true" type="string"/>

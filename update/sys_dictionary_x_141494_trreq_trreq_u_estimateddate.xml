@@ -26,7 +26,7 @@
         <element>u_estimateddate</element>
         <element_reference>false</element_reference>
         <foreign_database/>
-        <internal_type display_value="">glide_date</internal_type>
+        <internal_type display_value="">glide_date_time</internal_type>
         <mandatory>false</mandatory>
         <max_length>40</max_length>
         <name>x_141494_trreq_trreq</name>
@@ -46,8 +46,8 @@
         <staged>false</staged>
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2017-08-07 05:46:12</sys_created_on>
-        <sys_id>bcc650f30f50030017d906ace1050e61</sys_id>
+        <sys_created_on>2017-08-07 08:20:52</sys_created_on>
+        <sys_id>962abcb30f90030017d906ace1050eea</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Estimated Translation Date &amp; Time/完了予定日時</sys_name>
         <sys_package display_value="trreq" source="x_141494_trreq">38f391b20f90030017d906ace1050e79</sys_package>
@@ -55,7 +55,7 @@
         <sys_scope display_value="trreq">38f391b20f90030017d906ace1050e79</sys_scope>
         <sys_update_name>sys_dictionary_x_141494_trreq_trreq_u_estimateddate</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2017-08-07 05:46:12</sys_updated_on>
+        <sys_updated_on>2017-08-07 08:20:52</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

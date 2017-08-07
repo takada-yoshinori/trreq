@@ -17,7 +17,7 @@
         <element attributes="edge_encryption_enabled=true" label="Comments/コメント" max_length="40" name="u_description_en_2" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Requested by/依頼者" max_length="40" name="u_docauthor" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Requested by/依頼部門" max_length="40" name="u_docauthor_deptname_d" type="string"/>
-        <element label="Estimated Translation Date &amp; Time/完了予定日時" max_length="40" name="u_estimateddate" type="glide_date"/>
+        <element label="Estimated Translation Date &amp; Time/完了予定日時" max_length="40" name="u_estimateddate" type="glide_date_time"/>
         <element attributes="edge_encryption_enabled=true" label="Extension/内線" mandatory="true" max_length="40" name="u_extention" type="string"/>
         <element attributes="no_sort=true,slushbucket_ref_no_expand=true" label="Keyword/キーワード" max_length="1024" name="u_keyword" type="glide_list"/>
         <element attributes="edge_encryption_enabled=true" label="No. of Pages/ページ数" max_length="40" name="u_pages" type="string"/>
@@ -31,7 +31,7 @@
         <element label="Review Completed on/チェック終了日" max_length="40" name="u_revcompleteddate" type="glide_date"/>
         <element attributes="edge_encryption_enabled=true" label="Reviewer’s Memo/チェッカーメモ" max_length="40" name="u_revmemo" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="STATUS／ステータス" max_length="40" name="u_status" read_only="true" type="string"/>
-        <element label="Actual Translated Date &amp; Time/実際の完了日時" max_length="40" name="u_translateddate" type="glide_date"/>
+        <element label="Actual Translated Date &amp; Time/実際の完了日時" max_length="40" name="u_translateddate" type="glide_date_time"/>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Translators' Memo/翻訳者メモ" max_length="40" name="u_translotorsmemo" type="string">
             <choice>
                 <element label="経営会議資料" sequence="0" value="経営会議資料"/>

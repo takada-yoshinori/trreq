@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
-    <element label="trreq" max_length="40" name="x_141494_trreq_trreq" type="collection">
+    <element label="翻訳依頼" max_length="40" name="x_141494_trreq_trreq" type="collection">
         <element label="Additional Authorized Editors/追加編集権限者" max_length="32" name="addeditors" reference="sys_user" type="reference"/>
         <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Document Title/文書名" mandatory="true" max_length="40" name="u_actionitem_en" type="string"/>
@@ -19,6 +19,7 @@
         <element attributes="edge_encryption_enabled=true" label="Requested by/依頼部門" max_length="40" name="u_docauthor_deptname_d" type="string"/>
         <element label="Estimated Translation Date &amp; Time/完了予定日時" max_length="40" name="u_estimateddate" type="glide_date_time"/>
         <element attributes="edge_encryption_enabled=true" label="Extension/内線" mandatory="true" max_length="40" name="u_extention" type="string"/>
+        <element label="New HTML" max_length="65536" name="u_html_1" type="html"/>
         <element attributes="no_sort=true,slushbucket_ref_no_expand=true" label="Keyword/キーワード" max_length="1024" name="u_keyword" type="glide_list"/>
         <element attributes="edge_encryption_enabled=true" label="No. of Pages/ページ数" max_length="40" name="u_pages" type="string"/>
         <element attributes="no_sort=true,slushbucket_ref_no_expand=true" label="Purpose of Document/使用目的" max_length="1024" name="u_purpose" type="glide_list"/>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="task" label="データベース設定文書" max_length="40" name="x_141494_trreq_x_141494_trreq_db" type="collection"/>
+</database>

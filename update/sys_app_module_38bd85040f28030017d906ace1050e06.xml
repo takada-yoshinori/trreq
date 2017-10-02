@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <application display_value="データベース設定文書">4ec02ceddb900300497df6fdbf96198b</application>
+        <assessment/>
+        <content_page/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>データベース設定文書s</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_141494_trreq_x_141494_trreq_db</name>
+        <order/>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <roles>x_141494_trreq._user</roles>
+        <survey/>
+        <survey_overwrite>true</survey_overwrite>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-08-08 04:24:42</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>38bd85040f28030017d906ace1050e06</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>データベース設定文書s</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="trreq" source="x_141494_trreq">38f391b20f90030017d906ace1050e79</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="trreq">38f391b20f90030017d906ace1050e79</sys_scope>
+        <sys_update_name>sys_app_module_38bd85040f28030017d906ace1050e06</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-08-08 04:24:42</sys_updated_on>
+        <timeline_page/>
+        <title>データベース設定文書s</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+</record_update>
